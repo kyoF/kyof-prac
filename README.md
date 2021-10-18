@@ -1,1 +1,2 @@
-# kyoF-prac
+# kyof-prac
+It is for practice.
