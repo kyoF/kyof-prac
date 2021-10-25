@@ -9,8 +9,8 @@
 
 function test() {
   // alert("a" / 0);
-  let name = "kyosuke";
-  alert(`My name is ${name}`);
+  // let name = "kyosuke";
+  // alert(`My name is ${name}`);
   // alert(typeof undefined);
   // alert(typeof 0);
   // alert(typeof 10n);
@@ -22,9 +22,36 @@ function test() {
   // alert(typeof test);
   // let name = "Ilya";
 
-  alert(`hello ${1}`);
+  // alert(`hello ${1}`);
 
-  alert(`hello ${"name"}`);
+  // alert(`hello ${"name"}`);
 
-  alert(`hello ${name}`);
+  // alert(`hello ${name}`);
+
+  // let value = true;
+  // alert(typeof value);
+
+  // value = String(value);
+  // alert(typeof value);
+  // alert(Number("  123  "));
+  // alert(Number("  123  z"));
+  // alert(Number(true));
+  // alert(Number(false));
+  // alert(Boolean(1));
+  // alert(Boolean(0));
+  // alert(Boolean(""));
+  // alert(Boolean(" "));
+  // alert(Boolean(null));
+  // alert("1" + 2 + 2);
+  // alert(1 + 2 + "2");
+  // alert(+true);
+  // alert(+"");
+  // let apple = "2";
+  // let orange = "3";
+  // alert(+apple + +orange);
+  let a = 1;
+  let b = 2;
+  let c = 3 - (a = b + 1);
+  alert(a);
+  alert(c);
 }
