@@ -49,9 +49,17 @@ function test() {
   // let apple = "2";
   // let orange = "3";
   // alert(+apple + +orange);
-  let a = 1;
-  let b = 2;
-  let c = 3 - (a = b + 1);
-  alert(a);
-  alert(c);
+  // let a = 1;
+  // let b = 2;
+  // let c = 3 - (a = b + 1);
+  // alert(a);
+  // alert(c);
+  // alert("A" > "a");
+  // alert("3" > 1);
+  // alert("1" == 1);
+  // alert(true == 1);
+  // alert(false == 0);
+  alert(0 == false);
+  alert("" == false);
+  alert(0 === false);
 }
